@@ -42,10 +42,13 @@ div {
         .actived {
             color: #FED23F;
 
+
         }
 
         li {
             width: 130px;
+            position: relative;
+
 
 
             a {
@@ -55,11 +58,24 @@ div {
                 line-height: 50px;
                 display: block;
 
+
             }
+
+        }
+
+        .actived::after {
+            content: '';
+            position: absolute;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 15px solid white;
+            left: 50%;
+            bottom: -80%;
         }
 
         a:hover {
             background-color: #FED23F;
+            color: black;
 
         }
     }
