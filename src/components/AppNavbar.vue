@@ -71,6 +71,7 @@ div {
             border-top: 15px solid white;
             left: 50%;
             bottom: -80%;
+            z-index: 5;
         }
 
         a:hover {
