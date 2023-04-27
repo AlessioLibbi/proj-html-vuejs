@@ -2,12 +2,14 @@
 import AppQuote from './AppQuote.vue';
 import AppExplain from './AppExplain.vue';
 import AppNumbers from './AppNumbers.vue';
+import AppWorks from './AppWorks.vue';
 import { store } from "../store"
 export default {
     components: {
         AppQuote,
         AppExplain,
-        AppNumbers
+        AppNumbers,
+        AppWorks
     },
     data() {
         return {
@@ -22,6 +24,7 @@ export default {
     <AppQuote />
     <AppExplain :explainCard="store.explainCard" />
     <AppNumbers :numberGraph="store.numberGraph" />
+    <AppWorks />
 </template>
 
 
