@@ -3,13 +3,17 @@ import AppQuote from './AppQuote.vue';
 import AppExplain from './AppExplain.vue';
 import AppNumbers from './AppNumbers.vue';
 import AppWorks from './AppWorks.vue';
+import AppValues from './AppValues.vue';
+import AppSlider from './AppSlider.vue';
 import { store } from "../store"
 export default {
     components: {
         AppQuote,
         AppExplain,
         AppNumbers,
-        AppWorks
+        AppWorks,
+        AppValues,
+        AppSlider
     },
     data() {
         return {
@@ -25,6 +29,8 @@ export default {
     <AppExplain :explainCard="store.explainCard" />
     <AppNumbers :numberGraph="store.numberGraph" />
     <AppWorks />
+    <AppValues :valueData="store.valueData" />
+    <AppSlider :sliderData="store.sliderData" />
 </template>
 
 
