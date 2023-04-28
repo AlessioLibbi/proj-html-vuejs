@@ -19,7 +19,7 @@ export default {
         </div>
         <div class="works-img d-flex justify-content-center ">
             <img src="../assets/img/project2-featured-15013609-400x400.jpg" alt="">
-            <img src="../assets/img/project1-featured-294276386-400x400.jpg" alt="">
+            <img src="../assets/img/project1.jpg" alt="">
             <img src="../assets/img/project3-featured-189023420-400x400.jpg" alt="">
         </div>
         <div class="works-foot mt-5 mb-5 d-flex justify-content-center">

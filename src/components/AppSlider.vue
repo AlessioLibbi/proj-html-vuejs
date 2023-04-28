@@ -106,8 +106,8 @@ export default {
 
     .circle-whit-2 {
         position: absolute;
-        clip-path: ellipse(50% 50% at 50% 50%);
-        background-color: white;
+        clip-path: ellipse(72% 51% at 50% 87%);
+        background-color: #F5F5F5;
         height: 200px;
         width: 100%;
         bottom: -97px;

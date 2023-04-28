@@ -84,6 +84,26 @@ export const store = reactive({
         //     sliderText: "No man but feels more of a man in the world if he have but a bit ground than he call his own. However small it is on the surface, it is four thousand miles deep; and that is a very handsome property",
         //     sliderName: "HARRY DOE  NEW HOME OWNER"
         // },
+    ],
+    newsData: [
+        {
+            newsImg: "../assets/img/project1-small.jpg",
+            newsTitle: "Redeveloping Florida's Remote Southern Coast",
+            newsDate: "December 7th, 2015",
+            newsText: "Tecnology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique et enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus thoncus sed."
+        },
+        {
+            newsImg: "../assets/img/project2-small.jpg",
+            newsTitle: "How We Menage Large Construction Projects",
+            newsDate: "December 7th, 2015",
+            newsText: "Tecnology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique et enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus thoncus sed."
+        },
+        {
+            newsImg: "../assets/img/project3-small.jpg",
+            newsTitle: "Future proofing a modern home",
+            newsDate: "December 6th, 2015",
+            newsText: "Tecnology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique et enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus thoncus sed."
+        },
     ]
 
 }) 
