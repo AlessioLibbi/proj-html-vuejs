@@ -6,6 +6,7 @@ import AppWorks from './AppWorks.vue';
 import AppValues from './AppValues.vue';
 import AppSlider from './AppSlider.vue';
 import AppNews from './AppNews.vue';
+import AppPartners from './AppPartners.vue';
 import { store } from "../store"
 export default {
     components: {
@@ -15,7 +16,8 @@ export default {
         AppWorks,
         AppValues,
         AppSlider,
-        AppNews
+        AppNews,
+        AppPartners
     },
     data() {
         return {
@@ -34,6 +36,7 @@ export default {
     <AppValues :valueData="store.valueData" />
     <AppSlider :sliderData="store.sliderData" />
     <AppNews :newsData="store.newsData" />
+    <AppPartners :partnersData="store.partnersData" />
 </template>
 
 

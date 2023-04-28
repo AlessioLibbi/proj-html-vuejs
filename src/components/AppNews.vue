@@ -75,6 +75,7 @@ export default {
 
         .card {
             height: 600px;
+            border: none;
 
             .card-img-top {
                 width: 400px;
@@ -100,9 +101,7 @@ export default {
                 display: block;
                 height: 1px;
                 background-color: #BCBCBC;
-
                 position: absolute;
-                right: px;
             }
         }
     }

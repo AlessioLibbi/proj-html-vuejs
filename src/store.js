@@ -104,6 +104,49 @@ export const store = reactive({
             newsDate: "December 6th, 2015",
             newsText: "Tecnology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique et enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus thoncus sed."
         },
+    ],
+    partnersData: [
+        {
+            partnersImg: "../assets/img/partner-1.png"
+        },
+        {
+            partnersImg: "../assets/img/partner-2.png"
+        },
+        {
+            partnersImg: "../assets/img/partner-3.png"
+        },
+        {
+            partnersImg: "../assets/img/partner-4.png"
+        },
+        {
+            partnersImg: "../assets/img/partner-5.png"
+        },
+    ],
+    infoData: [
+        {
+            infoIcon: "fa-solid fa-globe",
+            infoText: "Corporate Location 1600 Amphitheatre Parkway London WC1 1BA "
+        },
+        {
+            infoIcon: "fa-solid fa-house-chimney",
+            infoText: "Residential Location 9521 Broadsberry Avenue Paddington RC7 gZA"
+        },
+        {
+            infoIcon: "fa-solid fa-phone-flip",
+            infoText: "1.800.458.556 / 1.800.532.2112"
+        },
+        {
+            infoIcon: "fa-regular fa-envelope",
+            infoText: "info@your-domain.com"
+        },
+        {
+            infoIcon: "fa-regular fa-clock",
+            infoText: "Monday - Friday: 9:00 AM - 6:00 PM"
+        },
+        {
+            infoIcon: "fa-regular fa-clock",
+            infoText: "Saturday - Sunday: 9:00 AM - 12:00 PM"
+        },
     ]
 
 }) 
